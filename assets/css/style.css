@@ -1,0 +1,124 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	min-width: 960px;
+}
+
+body{
+	background-image: url("../images/basketball-bg.jpg");
+	background-size:cover;
+}
+
+.wrapper{
+	width:960px;
+	margin:0 auto ;
+	padding:0;
+}
+
+h1{
+	color:#006BB7;
+	font-size: 4em;
+	text-align:center;
+	font-family: 'Anton', sans-serif;
+	background: white;
+	margin-bottom:25px;
+	padding:10px 0 10px;
+
+}
+
+#nbalogo{
+	width: 60px;
+	height:60px;
+	position:relative;
+	top:2px;
+}
+
+.question{
+	font-size: 2.2em;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	margin-bottom:20px;
+	text-align:center;
+	width: 100%;
+	text-shadow: 2px 2px 4px black;
+}
+
+.timerbar{
+	font-size:2em;
+	color:white;
+	/*border: 2px solid blue;*/
+	font-family: 'Anton', sans-serif;
+	margin: 10px 0 10px;
+	text-align:center;
+	margin: 0 0 20px;
+	display:none;
+	width: 100%;
+}
+
+
+	.timer{
+		padding:4px;
+		font-family: 'Orbitron', sans-serif;
+		position:relative;
+		bottom:2px;
+	}
+
+
+.button_arrangement{
+	width:100%;
+	text-align:center;
+	letter-spacing: 10px;
+	margin-bottom:20px;	
+	width: 100%;
+}
+
+	.option{
+		width: 200px;
+		height: 60px;
+		cursor:pointer;
+		background-color:#008CBA;
+		color:white;
+		font-size:1.1em;
+		border-radius: 6px;
+		font-family: 'Roboto', sans-serif;
+		display:none;
+		/*transition-duration: 0.2s;*/
+	}
+
+	.option:hover{
+    	color: yellow;	
+	}
+
+
+.explanationbar{
+	color:white;
+	text-align:center;
+	margin: 10px 0 10px;
+	background: rgba(25, 25, 25, .8)
+	width:100%;
+
+}
+
+
+	.explanation{
+		color:white;
+		font-size: 2.2em;
+		font-family: 'Cabin', sans-serif;
+		text-align:center;
+		margin: 10px 0 10px;
+		opacity:1;
+		text-shadow: 2px 2px 4px black;
+
+	}
+
+
+.start-button{
+		width: 200px;
+		height: 60px;
+		cursor:pointer;
+		background-color:#008CBA;
+		color:white;
+		font-size:1.1em;
+		border-radius: 6px;
+		font-family: 'Roboto', sans-serif;
+}
